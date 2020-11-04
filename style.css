@@ -1,0 +1,83 @@
+.container {
+  width/* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+body {
+  color: grey;
+  background-color: #FA8072;
+  font-family: Arial, serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #DC143C;
+  font-size: 40px;
+  font-family: Arial, serif;
+}
+
+h2, h3 {
+  color: #CD5C5C;
+  font-size: 20px;
+  font-family: Arial, serif;
+}
+
+.img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-discover {
+  background-color: #FFA07A;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: #CD5C5C;
+}
+
+a {
+  text-decoration: none;
+  color: #FFA07A;
+  font-size: 36px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
+
