@@ -1,44 +1,53 @@
 .container {
-  width/* This sets the width */
+  width: 600px;/* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-nom {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 50px 50px 50px rgba(0,0,0,0.1);
+  margin: 10px 0px;
 }
 
 .card {
   background-color: white;
-  padding: 40px;
-  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
+  padding: 20px;
+  box-shadow: 50px 50px 50px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 10px 0px;
   text-align: center;
 }
 
 body {
-  color: grey;
-  background-color: #FA8072;
-  font-family: Arial, serif;
-  font-size: 15px;
+  color: #717D7E;
+  background-color: #943126;
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
   font-weight: lighter;
 }
 
 h1 {
-  color: #DC143C;
+  color: #EC7063;
   font-size: 40px;
-  font-family: Arial, serif;
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 0px;
 }
 
 h2, h3 {
   color: #CD5C5C;
   font-size: 20px;
-  font-family: Arial, serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .img {
-  width: 100px;
-  border-radius: 50%;
+  width: 150px;
+  border-radius: 40%;
 }
 
 .btn-discover {
-  background-color: #FFA07A;
+  background-color: #F1948A;
   color: white;
   padding: 5px 5px;
   border-radius: 4px;
@@ -58,8 +67,9 @@ li {
 
 a {
   text-decoration: none;
-  color: #FFA07A;
+  color: #F1948A;
   font-size: 36px;
+  transition: ease, 0,4s;
 }
 
 @media (max-width: 960px) {
